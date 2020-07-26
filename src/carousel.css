@@ -1,5 +1,6 @@
 .carouselImage{
-    
+   height: 300px; 
+   width:400px;
 }
 .section{
     font-size: 2em;
