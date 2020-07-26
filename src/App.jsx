@@ -5,9 +5,15 @@ import Carousel from "./carousel.jsx"
 function App() {
   return (
     <div className="App">
-     <Carousel 
-     imageSource="./images/curries.jpg"
-      section="Curries"/>
+
+      <div className="bg">
+        <h1 >Cook with love</h1>
+      </div>
+
+     {/* <Carousel 
+    //  
+    /> */}
+    
     </div>
   );
 }
