@@ -21,7 +21,8 @@
 }
 .bg h1{
   font-family: cursive;
-  color: rgb(2, 95, 6);
+  /* color: rgb(2, 95, 6); */
+  color: rgb(190, 134, 61);
   font-size: 8em;
   text-align: center;
   padding-top: 200px;

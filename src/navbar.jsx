@@ -1,30 +1,62 @@
-import React from "react";
+import React, { useState } from "react";
 import "./navbar.css";
 
-function Navbar(){
 
-    function handleChange(event){
+function Navbar() {
+
+    const [dropDown, setdropDown] = useState(false)
+
+    function handleChange(event) {
         console.log(event.target.value)
     }
 
-    function handleSearchClick(){
+    function handleSearchClick() {
         console.log("i gt clicked")
 
     }
+    function handleBarsClick() {
+        setdropDown(function (prevValue) { return !prevValue })
+    }
 
 
-    return <div className="navbar-parent">
-        <span className="nav-title">Ann's Recipes</span>
+    return <div className="navParent">
+
+        <h1 className="logo">Ann's Recipes</h1>
+
+
         
-        <input className="nav-input"
-        onChange={handleChange} ></input>
-
-        <i className="nav-i"
-        onClick={handleSearchClick}class="fas fa-search"></i>
+            <ul className="navItems">
+                <li> <div><input  onChange={handleChange} ></input>
+                    <i onClick={handleSearchClick} class="fas fa-search"></i>
+                </div>
+                </li>
+                <li><a href="#">CURRIES</a></li>
+                <li><a href="#">SNACKS</a></li>
+                <li><a href="#">DESSERTS</a></li>
+                <li><a href="#">MAIN COURSE</a></li>
+            </ul>
         
 
-        <span className="nav-cat">Categories</span>
-        <i class="fas fa-caret-down"></i>
+        <i onClick={handleBarsClick} class="fas fa-bars"></i>
+
+        {dropDown &&
+
+            <div className="dropDown">
+                <ul>
+                    <li> <div><input  onChange={handleChange} ></input>
+                        <i onClick={handleSearchClick} class="fas fa-search"></i>
+                    </div>
+                    </li>
+                    <li><a href="#">CURRIES</a></li>
+                    <li><a href="#">SNACKS</a></li>
+                    <li><a href="#">DESSERTS</a></li>
+                    <li><a href="#">MAIN COURSE</a></li>
+                </ul>
+
+            </div>
+        }
+
+        {/* <i class="fas fa-caret-down"></i> */}
 
 
     </div>
