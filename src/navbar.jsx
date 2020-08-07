@@ -24,28 +24,30 @@ function Navbar() {
         <h1 className="logo">Ann's Recipes</h1>
 
 
-        
-            <ul className="navItems">
-                <li> <div><input  onChange={handleChange} ></input>
-                    <i onClick={handleSearchClick} class="fas fa-search"></i>
-                </div>
-                </li>
-                <li><a href="#">CURRIES</a></li>
-                <li><a href="#">SNACKS</a></li>
-                <li><a href="#">DESSERTS</a></li>
-                <li><a href="#">MAIN COURSE</a></li>
-            </ul>
-        
+
+        <ul className="navItems">
+            <li> <div><input onChange={handleChange} ></input>
+                <i onClick={handleSearchClick} class="fas fa-search"></i>
+            </div>
+            </li>
+            <li><a href="#">CURRIES</a></li>
+            <li><a href="#">SNACKS</a></li>
+            <li><a href="#">DESSERTS</a></li>
+            <li><a href="#">MAIN COURSE</a></li>
+        </ul>
+
 
         <i onClick={handleBarsClick} class="fas fa-bars"></i>
 
         {dropDown &&
-
-            <div className="dropDown">
+            <div className="dropdownParent" onClick={handleBarsClick}>
+            <div className="dropdown" onClick={function empty(){}}>
                 <ul>
-                    <li> <div><input  onChange={handleChange} ></input>
-                        <i onClick={handleSearchClick} class="fas fa-search"></i>
-                    </div>
+                    <li className="search">
+                        <div >
+                            <input  onChange={handleChange} ></input>
+                            <i onClick={handleSearchClick} class="fas fa-search"></i>
+                        </div>
                     </li>
                     <li><a href="#">CURRIES</a></li>
                     <li><a href="#">SNACKS</a></li>
@@ -54,6 +56,7 @@ function Navbar() {
                 </ul>
 
             </div>
+            </div> 
         }
 
         {/* <i class="fas fa-caret-down"></i> */}

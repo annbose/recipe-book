@@ -13,10 +13,10 @@
 }
 .recipeParent h3{
    font-size: 2em;
-   font-family: sans-serif;
+   font-family: 'Arima Madurai', cursive;
 }
 .recipeParent h5{
     /* flex-grow: 1; */
     font-size: 1em;
-    font-family: sans-serif;
+    font-family: 'Arima Madurai', cursive;
 }

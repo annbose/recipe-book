@@ -1,13 +1,12 @@
 .sectionParent{
 
-    width:100%;
     height: auto;
     border: solid 1px black;
     padding: 20px;
 }
 .sectionParent h2{
     font-size: 2em;
-    font-family: sans-serif;
+    font-family: 'Arima Madurai', cursive;
 
 }
 .sectionChildren{
