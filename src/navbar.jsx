@@ -12,22 +12,28 @@ function Navbar() {
 
     function handleSearchClick() {
         console.log("i gt clicked")
-
-    }
-    function handleBarsClick() {
-        setdropDown(function (prevValue) { return !prevValue })
     }
 
+    function handleBarsClick(event) {
+
+            setdropDown(function (prevValue) { return !prevValue })
+        
+    }
+
+    function handleEmptySpaceClick(event){
+        if (event.target.id==="ddParent" || event.target.id==="bars"){
+            setdropDown(function (prevValue) { return !prevValue })
+
+        }
+    }
 
     return <div className="navParent">
 
         <h1 className="logo">Ann's Recipes</h1>
 
-
-
         <ul className="navItems">
             <li> <div><input onChange={handleChange} ></input>
-                <i onClick={handleSearchClick} class="fas fa-search"></i>
+                <i onClick={handleSearchClick} className="fas fa-search"></i>
             </div>
             </li>
             <li><a href="#">CURRIES</a></li>
@@ -36,17 +42,16 @@ function Navbar() {
             <li><a href="#">MAIN COURSE</a></li>
         </ul>
 
-
-        <i onClick={handleBarsClick} class="fas fa-bars"></i>
+        <i onClick={handleBarsClick} id="bars" className="fas fa-bars"></i>
 
         {dropDown &&
-            <div className="dropdownParent" onClick={handleBarsClick}>
-            <div className="dropdown" onClick={function empty(){}}>
+            <div id="ddParent" className="dropdownParent" onClick={handleEmptySpaceClick}>
+            <div id="ddChild" className="dropdown" >
                 <ul>
                     <li className="search">
                         <div >
                             <input  onChange={handleChange} ></input>
-                            <i onClick={handleSearchClick} class="fas fa-search"></i>
+                            <i onClick={handleSearchClick} className="fas fa-search"></i>
                         </div>
                     </li>
                     <li><a href="#">CURRIES</a></li>

@@ -3,7 +3,8 @@ import './App.css';
 
 import Navbar from './navbar';
 import Section from './section';
-import Recipe from "./recipe"
+import Recipe from "./recipe";
+import Method from "./Methods/method";
 
 
 function App() {
@@ -48,6 +49,7 @@ function App() {
                   cookingTime="60 min">
          </Recipe>
     </Section>
+    <Method />
 
     
     </div>

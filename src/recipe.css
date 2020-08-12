@@ -1,22 +1,31 @@
 .recipeParent{
-    height: 450px;
-    /* width: 30%; */
+    height:350px;
+    width:200px;
+  
     border:solid 1px green;
     margin :10px;
     padding: 5px;
-    display: flex;
-    flex-direction: column;
-}
-.recipeParent img{
-  width:auto;
-  height: 60%;
-}
-.recipeParent h3{
-   font-size: 2em;
-   font-family: 'Arima Madurai', cursive;
-}
-.recipeParent h5{
-    /* flex-grow: 1; */
+    /* display: flex;
+    flex-direction: column; */
+
     font-size: 1em;
     font-family: 'Arima Madurai', cursive;
+}
+
+.recipeImg{
+  align-self: center;
+  height: 200px;
+}
+.recipeDescription{
+  width: auto;
+  height: 100px;
+  padding: 15px;
+}
+
+.recipeDescription h3 {
+}
+
+.recipeDescription h5 {
+  
+
 }

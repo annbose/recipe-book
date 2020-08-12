@@ -6,6 +6,8 @@
     padding: 0 20px;
     position: relative;
     color: black;
+    background-color: cadetblue;
+
 }
 .logo{
     
@@ -26,14 +28,25 @@
     font-family: 'Arima Madurai', cursive;
     font-size: 15px;
     font-weight: 700;
+   
+}
+.navItems .fa-search{
+    position: relative;
+    right: 20px;
+
 }
 
 
-input {
+.navItems input {
     outline: none;
     font-family: cursive;
     letter-spacing: 3px;
     font-size: 15px;
+    border: 1px solid black;
+    background-color: transparent;
+    border-radius: 5px;
+    width:170px;
+    height: 30px;
 }
 
 .navParent a {
@@ -51,9 +64,12 @@ input {
     font-size: 2em;
 }
 .dropdownParent{
+    background-color: #8f8f8c;
+    background-image: linear-gradient(rgba(125, 240, 240, 0.2),rgba(138, 243, 247, 0.2)),
+                        url("https://www.transparenttextures.com/patterns/classy-fabric.png");
     width:100%;
-    height: 600px;
-    background-color:brown;
+    height: 100vh;
+    /* background-color:brown; */
 
     position:absolute;
     left: 0px;
@@ -63,29 +79,32 @@ input {
 .dropdown {
     font-family: 'Arima Madurai', cursive;
     background-color: cadetblue;
-    width: auto;
+    width: 50%;
+    height: 100vh;
    position:absolute;
    right: 0px;
    z-index: 2;
+   vertical-align: middle;
    
 }
 
-.dropDown li{
-    padding: 20px;
+.dropdown li{
+    padding: 25px;
     
 }
 
-.dropDown .search{
-    /* position: relative; */
-}
 
-.dropDown .search input{
+.dropdown .search input{
     background-color: transparent;
     border: 1px solid black;
     border-radius: 5px;
+    width: 170px;
+    height: 30px;
 }
-.dropDown .search .fa-search{
+.dropdown .search .fa-search{
     position: absolute;
+    right: 220px;
+    top: 49px;
    
 }
 
@@ -97,9 +116,12 @@ input {
     .fa-bars {
         display: inline-block;
     }
+    /* body{
+        overflow-y: hidden;
+    } */
 }
-@media (min-width:1068px){
-    .dropDown{
+@media (min-width:1069px){
+    .dropdownParent{
         display: none;
     }
 }

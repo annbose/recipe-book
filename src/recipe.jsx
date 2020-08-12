@@ -8,14 +8,15 @@ function Recipe(props) {
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
-        height: "60%"
+        height:"200px",
+        // width:"200px"
     }
 
-    return <div className="recipeParent">
-        <div style={ styles }></div>
+    return <div className="recipeParent" >
+        <div className="recipeImg" style={ styles }></div>
         {/* <img src={props.imgSource} alt="dish"></img> */}
 
-        <div>
+        <div className="recipeDescription">
             <h3>{props.recipeName}</h3>
             <h5>
                 time {props.cookingTime}
