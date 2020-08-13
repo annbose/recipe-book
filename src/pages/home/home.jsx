@@ -12,7 +12,7 @@ return <div className="home">
 
             <div className="bg">
 
-              <Link to="/method"><h1 >Cook with love</h1></Link>
+            <h1 >Cook with love</h1>
 
             </div>
 
