@@ -1,24 +1,33 @@
 import React from "react";
 import './home.css';
-
-import Navbar from '../../navbar';
 import Section from '../../section';
 import Recipe from "../../recipe";
-import {Link} from "react-router-dom";
+import curries from "../../curriesData.json";
 
-function Home(){
+function Home() {
 
-return <div className="home">
+    return <div className="home">
 
-            <div className="bg">
+        <div className="bg">
 
             <h1 >Cook with love</h1>
 
-            </div>
+        </div>
 
-            <Section
-              sectionTitle="Curries">
-              < Recipe imgSource="./images/curries.jpg"
+        <Section
+            sectionTitle="Curries">
+
+            {curries.map((curryItem, index) => {
+                return <Recipe
+                    key={index}
+                    id={index}
+                    imgSource={curryItem.imgSource}
+                    recipeName={curryItem.recipeName}
+                    cookingTime={curryItem.cookingTime}
+                />
+            })}
+
+            {/* < Recipe imgSource="./images/curries.jpg"
                 recipeName="Beef Curry"
                 cookingTime="45 min" >
               </Recipe>
@@ -36,20 +45,21 @@ return <div className="home">
                 imgSource="./images/curries.jpg"
                 recipeName="Eggplant Curry"
                 cookingTime="30 min">
-              </Recipe>
-            </Section>
-            <Section
-              sectionTitle="Desserts">
-              < Recipe imgSource="./images/desserts.jpg"
+              </Recipe> */}
+        </Section>
+
+        <Section
+            sectionTitle="Desserts">
+            < Recipe imgSource="./images/desserts.jpg"
                 recipeName="Chocolate Cake"
                 cookingTime="45 min" >
-              </Recipe>
-              <Recipe
+            </Recipe>
+            <Recipe
                 imgSource="./images/desserts.jpg"
                 recipeName="Ada Payasam"
                 cookingTime="60 min">
-              </Recipe>
-            </Section>
-          </div>
+            </Recipe>
+        </Section>
+    </div>
 }
 export default Home;

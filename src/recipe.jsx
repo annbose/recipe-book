@@ -28,4 +28,7 @@ function Recipe(props) {
     </Link>
 }
 
-export default Recipe;
+function Recipes(props){
+
+}
+export default Recipes;
