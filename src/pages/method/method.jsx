@@ -8,6 +8,8 @@ function Method (){
             <h2>Ingredients</h2>
             <ol>
                 <li></li>
+                <li></li>
+                <li></li>
             </ol>
             <h2>Method</h2>
             <p>It specifies the initial size of the flex item, before any available space is distributed according to the flex factors. When omitted from the flex shorthand, its specified value is the length zero.
