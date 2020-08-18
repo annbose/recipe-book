@@ -1,8 +1,11 @@
 import React from "react";
 import './home.css';
 import Section from '../../section';
-import Recipe from "../../recipe";
-import curries from "../../curriesData.json";
+import RecipeList from "../../recipe";
+import curries from "../../itemsData/curriesData.json";
+import mainCourse from "../../itemsData/mainCourseData.json";
+import snacks from "../../itemsData/snacksData.json";
+import desserts from "../../itemsData/dessertsData.json";
 
 function Home() {
 
@@ -17,49 +20,29 @@ function Home() {
         <Section
             sectionTitle="Curries">
 
-            {curries.map((curryItem, index) => {
-                return <Recipe
-                    key={index}
-                    id={index}
-                    imgSource={curryItem.imgSource}
-                    recipeName={curryItem.recipeName}
-                    cookingTime={curryItem.cookingTime}
-                />
-            })}
+           <RecipeList recipes={curries} />
 
-            {/* < Recipe imgSource="./images/curries.jpg"
-                recipeName="Beef Curry"
-                cookingTime="45 min" >
-              </Recipe>
-              <Recipe
-                imgSource="./images/curries.jpg"
-                recipeName="Eggplant Curry"
-                cookingTime="30 min">
-              </Recipe>
-              <Recipe
-                imgSource="./images/curries.jpg"
-                recipeName="Eggplant Curry"
-                cookingTime="30 min">
-              </Recipe>
-              <Recipe
-                imgSource="./images/curries.jpg"
-                recipeName="Eggplant Curry"
-                cookingTime="30 min">
-              </Recipe> */}
         </Section>
-
         <Section
             sectionTitle="Desserts">
-            < Recipe imgSource="./images/desserts.jpg"
-                recipeName="Chocolate Cake"
-                cookingTime="45 min" >
-            </Recipe>
-            <Recipe
-                imgSource="./images/desserts.jpg"
-                recipeName="Ada Payasam"
-                cookingTime="60 min">
-            </Recipe>
+
+           <RecipeList recipes={desserts} />
+
         </Section>
+        <Section
+            sectionTitle="Main Course">
+
+           <RecipeList recipes={mainCourse} />
+
+        </Section>
+        <Section
+            sectionTitle="Snacks">
+
+           <RecipeList recipes={snacks} />
+
+        </Section>
+
+        
     </div>
 }
 export default Home;

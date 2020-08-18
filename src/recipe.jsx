@@ -3,7 +3,7 @@ import "./recipe.css";
 import { Link } from "react-router-dom";
 
 function Recipe(props) {
-
+    // console.log(props)
     let styles = {
         backgroundImage: `url( ${props.imgSource} )`,
         backgroundPosition: "center",
@@ -13,22 +13,37 @@ function Recipe(props) {
         // width:"200px"
     }
 
-    return <Link to="/method" >
-             <div className="recipeParent" >
-                 <div className="recipeImg" style={styles}></div>
-                     {/* <img src={props.imgSource} alt="dish"></img> */}
+    function handleRecipeItemClick(){
+        console.log(props.id)
 
-                 <div className="recipeDescription">
-                     <h3>{props.recipeName}</h3>
-                         <h5>
-                             time {props.cookingTime}
-                        </h5>
-                 </div>
-             </div>
+    }
+
+    return <Link to={`/method/${props.category}/${props.id}`} >
+        <div className="recipeParent" id="recipeItem" onClick={handleRecipeItemClick}>
+            <div className="recipeImg" style={styles}></div>
+            {/* <img src={props.imgSource} alt="dish"></img> */}
+
+            <div className="recipeDescription">
+                <h3>{props.recipeName}</h3>
+                {/* <h5>
+                    time {props.cookingTime}
+                </h5> */}
+            </div>
+        </div>
     </Link>
 }
 
-function Recipes(props){
-
+function RecipeList(props) {
+    
+   return props.recipes.map((recipe, index) => {
+        return <Recipe
+            key={index}
+            id={recipe.id}
+            category={recipe.category}
+            imgSource={recipe.imgSource}
+            recipeName={recipe.recipeName}
+            // cookingTime={recipe.cookingTime}
+        />
+    })
 }
-export default Recipes;
+export default RecipeList;

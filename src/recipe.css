@@ -1,5 +1,5 @@
 .recipeParent{
-    height:350px;
+    height:200px;
     width:200px;
   
     border:solid 1px green;
@@ -10,6 +10,7 @@
 
     font-size: 1em;
     font-family: 'Arima Madurai', cursive;
+    position: relative;
 }
 
 .recipeImg{
@@ -18,8 +19,14 @@
 }
 .recipeDescription{
   width: auto;
+  position:absolute;
+  color:whitesmoke;
+  bottom:50px;
   height: 100px;
   padding: 15px;
+}
+.recipeDescription h3{
+  font-size: 30px;
 }
 a{
   text-decoration: none;

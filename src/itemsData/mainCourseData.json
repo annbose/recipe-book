@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "imgSource": "./images/main-course.jpg",
+        "recipeName": "Biriyani",
+        "category":"main",
+        "cookingTime": "120 min"
+        
+    },
+    {
+        "id": 2,
+        "imgSource": "./images/main-course.jpg",
+        "recipeName": "Pasta",
+        "category":"main",
+        "cookingTime": "45 min"
+       
+    },
+    {
+        "id": 3,
+        "imgSource": "./images/main-course.jpg",
+        "recipeName": "Fried Rice",
+        "category":"main",
+        "cookingTime": "20 min"
+       
+    }
+   
+]
