@@ -1,26 +1,34 @@
 [
     {
-        "id": 1,
+        "id": 0,
         "imgSource": "./images/main-course.jpg",
         "recipeName": "Biriyani",
         "category":"main",
-        "cookingTime": "120 min"
+        "cookingTime": "120 min",
+        "ingredients":["Basmati Rice","Chicken","Yoghurt","Ginger Garlic paste","red chilly powder","Garam masala"],
+        "steps":["in a large bowl add three quarters of water and add whole spices",
+            "let it com e to near boil ,add salt and rice",
+        ""]
         
+    },
+    {
+        "id": 1,
+        "imgSource": "./images/main-course.jpg",
+        "recipeName": "Pasta",
+        "category":"main",
+        "cookingTime": "45 min",
+        "ingredients":["Pasta","Tomatoes","Red chilly flakes","salt"],
+        "steps":["Bring water to boil in a large pan"]
+       
     },
     {
         "id": 2,
         "imgSource": "./images/main-course.jpg",
-        "recipeName": "Pasta",
-        "category":"main",
-        "cookingTime": "45 min"
-       
-    },
-    {
-        "id": 3,
-        "imgSource": "./images/main-course.jpg",
         "recipeName": "Fried Rice",
         "category":"main",
-        "cookingTime": "20 min"
+        "cookingTime": "20 min",
+        "ingredients":["Cooked basmati rice","finely chopped veggies","garlic"],
+        "steps":["in a wok add any veg oil bring to a very high temperature.","Add Garlic followed by veggies and suate well"]
        
     }
    

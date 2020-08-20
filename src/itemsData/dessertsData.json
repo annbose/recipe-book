@@ -1,33 +1,50 @@
 [
     {
-        "id": 1,
+        "id": 0,
         "imgSource": "./images/desserts.jpg",
         "recipeName": "Choc Cake",
         "category":"dessert",
-        "cookingTime": "45 min"
+        "cookingTime": "45 min",
+        "ingredients":["Plain flour 1 cup","Eggs 2","Oil half cup","sugar half cup","cocoa powder half cup"],
+        "steps":["Beat eggs one by one.",
+            "Add Sugar and beat well.",
+            "Add oil and beat well.",
+            "Add milk angd light coffee."]
+        
+    },
+    {
+        "id": 1,
+        "imgSource": "./images/desserts.jpg",
+        "recipeName": "Apple Pie",
+        "category":"dessert",
+        "cookingTime": "30 min",
+        "ingredients":["Apples","Sugar","Cinnamon"],
+        "steps":["In a pan add a little water and apples diced",
+            "once apples are softened add sugar and let it cool",
+            "cut pastry sheets and fill it with the apple mix"
+        ]
         
     },
     {
         "id": 2,
         "imgSource": "./images/desserts.jpg",
-        "recipeName": "Apple Pie",
+        "recipeName": "Crumble",
         "category":"dessert",
-        "cookingTime": "30 min"
-        
+        "cookingTime": "20 min",
+        "ingredients":["Flour","Butter","sugar","berries"],
+        "steps":["Mix flour buteer and sugar to make crumble",
+        "in a pan add berries and sugar ,on medium flame caremelise the berries",
+        "into a baking tray transfer the berries and top with the crumble"]
     },
     {
         "id": 3,
         "imgSource": "./images/desserts.jpg",
-        "recipeName": "Crumble",
-        "category":"dessert",
-        "cookingTime": "20 min"
-    },
-    {
-        "id": 4,
-        "imgSource": "./images/desserts.jpg",
         "recipeName": "Popsicles",
         "category":"dessert",
-        "cookingTime": "10 min"
+        "cookingTime": "10 min",
+        "ingredients":["Milk"],
+        "steps":["Mix all the ingredients in a blender",
+        "Pour the mixture into popsicle moulds and freeze for 4 hours"]
        
     }
 ]

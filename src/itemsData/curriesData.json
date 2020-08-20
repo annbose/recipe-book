@@ -1,45 +1,51 @@
 [
     {
-        "id": 1,
+        "id": 0,
         "imgSource": "./images/curries.jpg",
         "recipeName": "Beef Curry",
-        "category":"curry",
+        "category":"curries",
         "cookingTime": "45 min",
         "ingredients":["Beef","Onions","Tomatoes","Green Chillies","Ginger Garlic paste","Oil"],
-        "method":["In a cooker mix beef,salt,vinegar and black pepper,on a medium flame wait for two or three whistles (or until beef is 90% done)","In a pan add oil and onions and suate them till they are golden "]
+        "steps":["In a cooker mix beef,salt,vinegar and black pepper,on a medium flame wait for two or three whistles (or until beef is 90% done)","In a pan add oil and onions and suate them till they are golden "]
+
+        
+    },
+    {
+        "id": 1,
+        "imgSource": "./images/eggplantcurry.jpg",
+        "recipeName": "Eggplant",
+        "category":"curries",
+        "cookingTime": "30 min", 
+        "ingredients":["egg plant","Onions","Tomatoes","Green Chillies","Ginger Garlic paste","Oil"],
+        "steps":["In a cooker mix beef,salt,vinegar and black pepper",
+                 "on a medium flame wait for two or three whistles (or until beef is 90% done)",
+                "In a pan add oil and onions and suate them till they are golden "]
 
         
     },
     {
         "id": 2,
-        "imgSource": "./images/eggplantcurry.jpg",
-        "recipeName": "Eggplant",
-        "category":"curry",
-        "cookingTime": "30 min", 
-        "ingredients":["egg plant","Onions","Tomatoes","Green Chillies","Ginger Garlic paste","Oil"],
-        "method":["In a cooker mix beef,salt,vinegar and black pepper,on a medium flame wait for two or three whistles (or until beef is 90% done)","In a pan add oil and onions and suate them till they are golden "]
+        "imgSource": "./images/curries.jpg",
+        "recipeName": "Butter Chicken",
+        "category":"curries",
+        "cookingTime": "50 min", 
+        "ingredients":["Chicken","Onions","Tomatoes","Green Chillies","Ginger Garlic paste","Oil"],
+        "steps":["Marinate chicken with red chilly powder,salt, and ginger Gralic paste",
+                "Shallow fry the chicken pieces and keep it asde", 
+                "In a pan add oil and onions and suate them till they are golden "]
 
         
     },
     {
         "id": 3,
         "imgSource": "./images/curries.jpg",
-        "recipeName": "Butter Chicken",
-        "category":"curry",
-        "cookingTime": "50 min", 
-        "ingredients":["Chicken","Onions","Tomatoes","Green Chillies","Ginger Garlic paste","Oil"],
-        "method":["In a cooker mix beef,salt,vinegar and black pepper,on a medium flame wait for two or three whistles (or until beef is 90% done)","In a pan add oil and onions and suate them till they are golden "]
-
-        
-    },
-    {
-        "id": 4,
-        "imgSource": "./images/curries.jpg",
         "recipeName": "Rasam",
-        "category":"curry",
+        "category":"curries",
         "cookingTime": "10 min",
-        "ingredients":["Beef","Onions","Tomatoes","Green Chillies","Ginger Garlic paste","Oil"],
-        "method":["In a cooker mix beef,salt,vinegar and black pepper,on a medium flame wait for two or three whistles (or until beef is 90% done)","In a pan add oil and onions and suate them till they are golden "]
+        "ingredients":["Tomatoes","Tamarind Water","Green Chillies","Ginger Garlic paste","Oil"],
+        "steps":["In a pan mix tomatoes,salt,tamarind water and black pepper",
+            "on a medium flame wait for two or three whistles (or until beef is 90% done)",
+            "In a pan add oil and onions and suate them till they are golden "]
 
         
     }
