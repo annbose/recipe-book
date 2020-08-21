@@ -6,3 +6,6 @@
 
     font-family: 'Arima Madurai', cursive;
 }
+.ingredientTable{
+    border-spacing: 1em;
+}

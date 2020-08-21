@@ -6,6 +6,7 @@
         "category":"snack",
         "cookingTime": "45 min",
         "ingredients":["Chicken","PuffPastry","Onions","Tomatoes","Green Chillies","Ginger Garlic paste","Oil"],
+        "measurements":["1","1/2","1/2","3 to 4","1/2 tbspn","2" ],
         "steps":["In a cooker mix beef,salt,vinegar and black pepper",
             "on a medium flame wait for two or thr",
             "In a pan add oil and onions and suate them till they are golden "]
@@ -19,6 +20,7 @@
         "category":"snack",
         "cookingTime": "30 min",
         "ingredients":["Any flour","Sugar","Butter"],
+        "measurements":["1","1/2","1/2"],
         "steps":["In a cooker mix beef,salt,vinegar and black pepper,on a medium flame wait for two or three whistles (or until beef is 90% done)","In a pan add oil and onions and suate them till they are golden "]
 
         
@@ -30,6 +32,7 @@
         "category":"snack",
         "cookingTime": "50 min",
         "ingredients":["Wheat flour","Sugar","Tomatoes","Oil"],
+        "measurements":["1","1/2","1/2","2"],
         "steps":["In a cooker mix beef,salt,vinegar and black pepper,on a medium flame wait for two or three whistles (or until beef is 90% done)","In a pan add oil and onions and suate them till they are golden "]
 
        
@@ -41,6 +44,7 @@
         "category":"snack",
         "cookingTime": "10 min",
         "ingredients":["Onions","Tomatoes","Green Chillies","Ginger Garlic paste","Oil"],
+        "measurements":["1","1/2","1/2","3 to 4","1/2 tbspn" ],
         "steps":["In a cooker mix beef,salt,vinegar and black pepper,on a medium flame wait for two or three whistles (or until beef is 90% done)","In a pan add oil and onions and suate them till they are golden "]
 
         

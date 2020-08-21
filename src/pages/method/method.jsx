@@ -20,22 +20,48 @@ function Method(props) {
 
     const name = categories[params.id].recipeName;
     const ingredients = categories[params.id].ingredients;
+    const measurements = categories[params.id].measurements;
     const steps = categories[params.id].steps;
 
     return <div className="Parent">
         <div>
             <h1>{name}</h1>
-            <h2>Ingredients</h2>
-            <ol>
-                {
+            {/* <h2>Ingredients</h2> */}
+            {/* <ol> */}
+                {/* {
                     ingredients.map((ing1, index) => {
                         return <li key={index}>{ing1}</li>
-                    })
-                }
-            </ol>
+                    }) */}
+                        <table className="ingredientTable">
+                            <tr>
+                                
+                                <th colSpan={2}><h2>Ingredients</h2></th>
+                                <th colSpan={2}><h2>Measurements</h2></th>
+                            </tr>
+                            {
+                                ingredients.map((ingredient, index)=>{
+                                    return <tr>
+                                        <td>
+                                            {index+1}.
+                                        </td>
+                                        <td>
+                                            {ingredient}
+                                        </td>
+                                        <td>
 
+                                        </td>
+                                        <td>
+                                            {measurements[index]}
+                                        </td>
+                                    </tr>
+                                })
+                            }
+                        </table>
+                   
+                
+           
             <h2>Method</h2>
-            
+
             <ol>
                 {
                     steps.map((step1, index) => {

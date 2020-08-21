@@ -6,6 +6,7 @@
         "category":"main",
         "cookingTime": "120 min",
         "ingredients":["Basmati Rice","Chicken","Yoghurt","Ginger Garlic paste","red chilly powder","Garam masala"],
+        "measurements":["1","1/2","1/2","3 to 4","1/2 tbspn" ,"2"],
         "steps":["in a large bowl add three quarters of water and add whole spices",
             "let it com e to near boil ,add salt and rice",
         ""]
@@ -18,6 +19,7 @@
         "category":"main",
         "cookingTime": "45 min",
         "ingredients":["Pasta","Tomatoes","Red chilly flakes","salt"],
+        "measurements":["1","1/2","3 to 4","1/2 tbspn" ],
         "steps":["Bring water to boil in a large pan"]
        
     },
@@ -28,6 +30,7 @@
         "category":"main",
         "cookingTime": "20 min",
         "ingredients":["Cooked basmati rice","finely chopped veggies","garlic"],
+        "measurements":["1","1/2","1/2" ],
         "steps":["in a wok add any veg oil bring to a very high temperature.","Add Garlic followed by veggies and suate well"]
        
     }

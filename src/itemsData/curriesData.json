@@ -6,6 +6,7 @@
         "category":"curries",
         "cookingTime": "45 min",
         "ingredients":["Beef","Onions","Tomatoes","Green Chillies","Ginger Garlic paste","Oil"],
+        "measurements":["1","1/2","1/2","3 to 4","1/2 tbspn" ,"2"],
         "steps":["In a cooker mix beef,salt,vinegar and black pepper,on a medium flame wait for two or three whistles (or until beef is 90% done)","In a pan add oil and onions and suate them till they are golden "]
 
         
@@ -17,6 +18,7 @@
         "category":"curries",
         "cookingTime": "30 min", 
         "ingredients":["egg plant","Onions","Tomatoes","Green Chillies","Ginger Garlic paste","Oil"],
+        "measurements":["1","1/2","1/2","3 to 4","1/2 tbspn","2" ],
         "steps":["In a cooker mix beef,salt,vinegar and black pepper",
                  "on a medium flame wait for two or three whistles (or until beef is 90% done)",
                 "In a pan add oil and onions and suate them till they are golden "]
@@ -30,6 +32,7 @@
         "category":"curries",
         "cookingTime": "50 min", 
         "ingredients":["Chicken","Onions","Tomatoes","Green Chillies","Ginger Garlic paste","Oil"],
+        "measurements":["1","1/2","1/2","3 to 4","1/2 tbspn" ],
         "steps":["Marinate chicken with red chilly powder,salt, and ginger Gralic paste",
                 "Shallow fry the chicken pieces and keep it asde", 
                 "In a pan add oil and onions and suate them till they are golden "]
@@ -43,6 +46,7 @@
         "category":"curries",
         "cookingTime": "10 min",
         "ingredients":["Tomatoes","Tamarind Water","Green Chillies","Ginger Garlic paste","Oil"],
+        "measurements":["1","1/2","1/2","3 to 4","1/2 tbspn" ],
         "steps":["In a pan mix tomatoes,salt,tamarind water and black pepper",
             "on a medium flame wait for two or three whistles (or until beef is 90% done)",
             "In a pan add oil and onions and suate them till they are golden "]

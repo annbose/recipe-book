@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 function RecipeTile(props) {
     
     let styles = {
-        backgroundImage: linear-gradient(rgba(255,255,255,0.4),rgba(255,255,255,0.4)),
-                        `url( ${props.imgSource} )`,
+        // backgroundImage: "linear-gradient(rgba(255,255,255,0.4),rgba(255,255,255,0.1))",
+        backgroundImage:  `url( ${props.imgSource} )`,
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
