@@ -36,10 +36,10 @@ function Navbar() {
                 <i onClick={handleSearchClick} className="fas fa-search"></i>
             </div>
             </li>
-            <li><a href="#">CURRIES</a></li>
-            <li><a href="#">SNACKS</a></li>
-            <li><a href="#">DESSERTS</a></li>
-            <li><a href="#">MAIN COURSE</a></li>
+            <li><a href="#Curries">CURRIES</a></li>
+            <li><a href="#Snacks">SNACKS</a></li>
+            <li><a href="#Desserts">DESSERTS</a></li>
+            <li><a href="#Main Course">MAIN COURSE</a></li>
         </ul>
 
         <i onClick={handleBarsClick} id="bars" className="fas fa-bars"></i>
