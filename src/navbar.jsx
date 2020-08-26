@@ -1,18 +1,13 @@
 import React, { useState } from "react";
 import "./navbar.css";
+import Search from "./components/search";
 
 
 function Navbar() {
 
-    const [dropDown, setdropDown] = useState(false)
-
-    function handleChange(event) {
-        console.log(event.target.value)
-    }
-
-    function handleSearchClick() {
-        console.log("i gt clicked")
-    }
+    const [dropDown, setdropDown] = useState(false);
+    
+    
 
     function handleBarsClick(event) {
 
@@ -32,9 +27,8 @@ function Navbar() {
         <h1 className="logo">Ann's Recipes</h1>
 
         <ul className="navItems">
-            <li> <div><input onChange={handleChange} ></input>
-                <i onClick={handleSearchClick} className="fas fa-search"></i>
-            </div>
+            <li> 
+                <Search />
             </li>
             <li><a href="#Curries">CURRIES</a></li>
             <li><a href="#Snacks">SNACKS</a></li>
@@ -49,22 +43,17 @@ function Navbar() {
             <div id="ddChild" className="dropdown" >
                 <ul>
                     <li className="search">
-                        <div >
-                            <input  onChange={handleChange} ></input>
-                            <i onClick={handleSearchClick} className="fas fa-search"></i>
-                        </div>
+                        <Search />
                     </li>
-                    <li><a href="#">CURRIES</a></li>
-                    <li><a href="#">SNACKS</a></li>
-                    <li><a href="#">DESSERTS</a></li>
-                    <li><a href="#">MAIN COURSE</a></li>
+                    <li><a href="#Curries">CURRIES</a></li>
+                    <li><a href="#Snacks">SNACKS</a></li>
+                    <li><a href="#Desserts">DESSERTS</a></li>
+                    <li><a href="#Main Course">MAIN COURSE</a></li>
                 </ul>
 
             </div>
             </div> 
         }
-
-        {/* <i class="fas fa-caret-down"></i> */}
 
 
     </div>

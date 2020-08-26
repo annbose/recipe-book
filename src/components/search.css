@@ -1,0 +1,41 @@
+ .searchParent{
+     position: relative; 
+ } 
+ .searchParent input{
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 170px;
+    height: 30px;
+}
+.icon{
+    height: 30px;
+    width:40px;
+    background-color: teal;
+
+}
+.icon i{
+    position: absolute;
+    top:2px;
+    right:0px;
+}
+
+
+
+.searchDrop{
+
+    width:170px;
+    height: 200px;
+    background-color: teal;
+    position: absolute;
+}
+.searchList{
+    border:1px solid black;
+}
+   
+.testing{
+    width:170px;
+    height: 200px;
+    background-color: rgb(236, 142, 18);
+    position:absolute;
+}
