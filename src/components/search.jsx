@@ -5,6 +5,7 @@ import curries from "../itemsData/curriesData.json";
 import mainCourse from "../itemsData/mainCourseData.json";
 import snacks from "../itemsData/snacksData.json";
 import desserts from "../itemsData/dessertsData.json";
+import { Link } from "react-router-dom";
 
 function Search() {
 
@@ -12,15 +13,18 @@ function Search() {
     const [searchList, setSearchList] = useState([]);
 
     function handleChange(event) {
-        if (event.target.value.toLowerCase() === "") {
+        const e = (event.target.value).toLowerCase();
+
+        if (e === "") {
             setSearchDropDown(false);
             return
         }
         setSearchDropDown(true);
-        const e = (event.target.value).toLowerCase();
-        console.log(e);
+        // const e = (event.target.value).toLowerCase();
+
         let matched = [];
         const allRecipes = [curries, mainCourse, snacks, desserts];
+        
 
         for (let j = 0; j < 4; j++) {
             // console.log(allRecipes[j])
@@ -28,23 +32,13 @@ function Search() {
                 // console.log(allRecipes[j][i].recipeName)
                 if (allRecipes[j][i].recipeName.toLowerCase().startsWith(e)) {
                     // console.log("got ", allRecipes[j][i].recipeName)
-                    matched.push(allRecipes[j][i].recipeName)
+                    matched.push(allRecipes[j][i]);
+
                 }
             }
         }
         setSearchList(matched)
-        // const curryFiltered = curries.filter((curry,index) => {
-        //    return (curry.recipeName.toLowerCase().charAt(0)===e)
-        //    console.log(index)
-        //    });
-        //    console.log(curryFiltered);
 
-        // setSearchList((prevValues)=>{
-        //      return [...prevValues,curryFiltered]
-
-        //  setSearchList(function x(){
-        //      [curryFiltered]
-        //  })
     }
 
 
@@ -52,6 +46,7 @@ function Search() {
         setSearchDropDown(false)
         console.log("i gt clicked")
     }
+    
 
 
     return <div className="searchParent">
@@ -62,14 +57,18 @@ function Search() {
 
         {searchDropDown &&
             <div className="searchDropDown">
+                <ul>
                 {searchList.map((item, index) => {
-                    return <ol>
-                     <div className="searchList"><li key={index}>{item}</li></div> 
-                     </ol>
+                    return <li className="searchList"
+                                key={index}>
+                                  <Link to={"/method/" + item.category + "/" + item.id}  >
+                                     {item.recipeName}
+                                 </Link>
+                          </li>
+              
 
-                })
-                }
-                {/* <div className="testing">BLA</div> */}
+                })}
+                </ul>
             </div>
         }
     </div>

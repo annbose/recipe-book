@@ -10,7 +10,7 @@ function Method(props) {
     const params = useParams()
 
     let categories = curries
-    if (params.category === "snacks") {
+    if (params.category === "snack") {
         categories = snacks
     } else if (params.category === "dessert") {
         categories = desserts
@@ -33,14 +33,17 @@ function Method(props) {
                         return <li key={index}>{ing1}</li>
                     }) */}
                         <table className="ingredientTable">
+                            <thead>
                             <tr>
                                 
                                 <th colSpan={2}><h2>Ingredients</h2></th>
                                 <th colSpan={2}><h2>Measurements</h2></th>
                             </tr>
+                            </thead>
+                            <tbody>
                             {
                                 ingredients.map((ingredient, index)=>{
-                                    return <tr>
+                                    return <tr key={index}>
                                         <td>
                                             {index+1}.
                                         </td>
@@ -56,6 +59,7 @@ function Method(props) {
                                     </tr>
                                 })
                             }
+                            </tbody>
                         </table>
                    
                 

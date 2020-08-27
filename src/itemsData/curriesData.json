@@ -7,21 +7,25 @@
         "cookingTime": "45 min",
         "ingredients":["Beef","Onions","Tomatoes","Green Chillies","Ginger Garlic paste","Oil"],
         "measurements":["1","1/2","1/2","3 to 4","1/2 tbspn" ,"2"],
-        "steps":["In a cooker mix beef,salt,vinegar and black pepper,on a medium flame wait for two or three whistles (or until beef is 90% done)","In a pan add oil and onions and suate them till they are golden "]
+        "steps":["In a pressure cooker mix beef,salt,vinegar and black pepper,on a medium flame cook for two or three whistles (or until beef is 90% done)",
+            "In a pan add oil and onions and suate them till they are golden brown colour.",
+        "Add gingerGarlic paste and suate for another two minutes."]
 
         
     },
     {
         "id": 1,
         "imgSource": "./images/eggplantcurry.jpg",
-        "recipeName": "Eggplant",
+        "recipeName": "Eggplant Curry",
         "category":"curries",
         "cookingTime": "30 min", 
         "ingredients":["egg plant","Onions","Tomatoes","Green Chillies","Ginger Garlic paste","Oil"],
         "measurements":["1","1/2","1/2","3 to 4","1/2 tbspn","2" ],
-        "steps":["In a cooker mix beef,salt,vinegar and black pepper",
-                 "on a medium flame wait for two or three whistles (or until beef is 90% done)",
-                "In a pan add oil and onions and suate them till they are golden "]
+        "steps":["In a pan add oil and onions and suate them till they are golden brown in colour.",
+                 "Add ginger garlic paste and saute well",
+                "Add the cut and cleanead eggplant piesces, stirr well and coat the eggplant with the masala.",
+                 "Add salt to taste and cover with alid until eggplant is cooked",
+                     "Add hot water to make more gravy"]
 
         
     },
@@ -33,9 +37,10 @@
         "cookingTime": "50 min", 
         "ingredients":["Chicken","Onions","Tomatoes","Green Chillies","Ginger Garlic paste","Oil"],
         "measurements":["1","1/2","1/2","3 to 4","1/2 tbspn" ],
-        "steps":["Marinate chicken with red chilly powder,salt, and ginger Gralic paste",
-                "Shallow fry the chicken pieces and keep it asde", 
-                "In a pan add oil and onions and suate them till they are golden "]
+        "steps":["Marinate chicken with red chilly powder,salt, and ginger Gralic paste for atleast 20 minutes",
+                "Shallow fry the chicken pieces and keep it aside", 
+                "In the same pan add oil, onions and butter and saute till they are golden ",
+            "Add cashews and "]
 
         
     },
@@ -48,8 +53,8 @@
         "ingredients":["Tomatoes","Tamarind Water","Green Chillies","Ginger Garlic paste","Oil"],
         "measurements":["1","1/2","1/2","3 to 4","1/2 tbspn" ],
         "steps":["In a pan mix tomatoes,salt,tamarind water and black pepper",
-            "on a medium flame wait for two or three whistles (or until beef is 90% done)",
-            "In a pan add oil and onions and suate them till they are golden "]
+            "On a medium flame bring to boil",
+            "Add rasam powder, garlic crushed "]
 
         
     }
