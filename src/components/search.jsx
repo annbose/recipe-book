@@ -41,15 +41,15 @@ function Search(props) {
 
     }
 
-    function handleSearchClick() {
-        setSearchDropDown(false)
-        console.log("i gt clicked")
-    }
+    // function handleSearchClick() {
+    //     setSearchDropDown(false)
+    //     console.log("i gt clicked")
+    // }
 
 
     return <div className="searchParent">
-        <input onChange={handleChange} ></input>
-            <i onClick={handleSearchClick} className="fas fa-search"></i>
+        <input placeholder="Type to Search.." onChange={handleChange} ></input>
+            {/* <i onClick={handleSearchClick} className="fas fa-search"></i> */}
         
 
 
