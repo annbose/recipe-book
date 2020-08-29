@@ -5,8 +5,8 @@
         "recipeName": "Beef Curry",
         "category":"curries",
         "cookingTime": "45 min",
-        "ingredients":["Beef","Onions","Tomatoes","Green Chillies","Ginger Garlic paste","Oil"],
-        "measurements":["1","1/2","1/2","3 to 4","1/2 tbspn" ,"2"],
+        "ingredients":["Beef","Onions","Tomatoes","Green Chillies","Ginger Garlic paste","Coconut Oil"],
+        "measurements":["1 kg","2 medium sized","1","3 to 4","2 tbspn" ,"3 tbspn"],
         "steps":["In a pressure cooker mix beef,salt,vinegar and black pepper,on a medium flame cook for two or three whistles (or until beef is 90% done)",
             "In a pan add oil and onions and suate them till they are golden brown colour.",
         "Add gingerGarlic paste and suate for another two minutes."]
@@ -16,16 +16,16 @@
     {
         "id": 1,
         "imgSource": "./images/eggplantcurry.jpg",
-        "recipeName": "Eggplant Curry",
+        "recipeName": "Eggplant",
         "category":"curries",
         "cookingTime": "30 min", 
         "ingredients":["egg plant","Onions","Tomatoes","Green Chillies","Ginger Garlic paste","Oil"],
-        "measurements":["1","1/2","1/2","3 to 4","1/2 tbspn","2" ],
+        "measurements":["1","1/2","1/2","3 ","1 tspn","1 tbspn" ],
         "steps":["In a pan add oil and onions and suate them till they are golden brown in colour.",
-                 "Add ginger garlic paste and saute well",
+                 "Add ginger garlic paste and saute well.",
                 "Add the cut and cleanead eggplant piesces, stirr well and coat the eggplant with the masala.",
-                 "Add salt to taste and cover with alid until eggplant is cooked",
-                     "Add hot water to make more gravy"]
+                 "Add salt to taste and cover with alid until eggplant is cooked.",
+                     "Add hot water to make more gravy."]
 
         
     },
@@ -35,8 +35,8 @@
         "recipeName": "Butter Chicken",
         "category":"curries",
         "cookingTime": "50 min", 
-        "ingredients":["Chicken","Onions","Tomatoes","Green Chillies","Ginger Garlic paste","Oil"],
-        "measurements":["1","1/2","1/2","3 to 4","1/2 tbspn" ],
+        "ingredients":["Chicken","Onions","Tomatoes","Ginger Garlic paste","Oil","Garlic paste","Red Chilly Powder","Garam Masala"],
+        "measurements":["1 kg","2","3","1/2 tbspn","1tspn","1 tspn" ],
         "steps":["Marinate chicken with red chilly powder,salt, and ginger Gralic paste for atleast 20 minutes",
                 "Shallow fry the chicken pieces and keep it aside", 
                 "In the same pan add oil, onions and butter and saute till they are golden ",
@@ -50,11 +50,11 @@
         "recipeName": "Rasam",
         "category":"curries",
         "cookingTime": "10 min",
-        "ingredients":["Tomatoes","Tamarind Water","Green Chillies","Ginger Garlic paste","Oil"],
+        "ingredients":["Tomatoes","Tamarind Water","Green Chillies","Garlic paste","Oil"],
         "measurements":["1","1/2","1/2","3 to 4","1/2 tbspn" ],
-        "steps":["In a pan mix tomatoes,salt,tamarind water and black pepper",
-            "On a medium flame bring to boil",
-            "Add rasam powder, garlic crushed "]
+        "steps":["In a pan mix tomatoes,salt,tamarind water and black pepper.",
+            "On a medium flame bring to boil.",
+            "Add rasam powder, garlic crushed. "]
 
         
     }

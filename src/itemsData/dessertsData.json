@@ -35,9 +35,10 @@
         "cookingTime": "20 min",
         "ingredients":["Flour","Butter","sugar","berries"],
         "measurements":["1 cup","2","1/2 cup","1/2 to 3/4 cup" ],
-        "steps":["Mix flour buteer and sugar to make crumble",
-        "in a pan add berries and sugar ,on medium flame caremelise the berries",
-        "into a baking tray transfer the berries and top with the crumble"]
+        "steps":["Mix flour butter and sugar to make crumble",
+        "In a pan add berries and sugar ,on medium flame caremelise the berries",
+        "Into a baking tray transfer the berries and top with the crumble",
+         "Bake for 20 minutes.Serve hot or cold with icecream."]
     },
     {
         "id": 3,

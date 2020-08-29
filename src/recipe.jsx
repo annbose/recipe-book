@@ -11,28 +11,19 @@ function RecipeTile(props) {
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         height: "200px",
-        // width:"200px"
     }
 
-    function handleRecipeItemClick() {
-        console.log(props.id)
-
-    }
+    
 
     // return <Link to={`/method/ ${props.category} / ${props.id} `} >
     return <Link to={"/method/" + props.category + "/" + props.id} >
-        <div className="recipeParent" id="recipeItem" onClick={handleRecipeItemClick}>
-            <div className="recipeImg" style={styles}></div>
-            {/* <img src={props.imgSource} alt="dish"></img> */}
-
-            <div className="recipeDescription">
-                <h3>{props.recipeName}</h3>
-                {/* <h5>
-                    time {props.cookingTime}
-                </h5> */}
-            </div>
-        </div>
-    </Link>
+             <div className="recipeParent" >
+                 <div className="recipeImg" style={styles}></div>
+                 <div className="recipeDescription">
+                 <h3>{props.recipeName}</h3>
+                 </div>
+             </div>
+          </Link>
 }
 
 function RecipeList(props) {
@@ -44,7 +35,6 @@ function RecipeList(props) {
             category={recipe.category}
             imgSource={recipe.imgSource}
             recipeName={recipe.recipeName}
-        // cookingTime={recipe.cookingTime}
         />
     })
 }

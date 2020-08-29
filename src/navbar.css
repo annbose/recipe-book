@@ -74,7 +74,7 @@
     position:absolute;
     left: 0px;
     top:94px;
-    z-index: 1;
+    /* z-index: 1; */
 }
 .dropdown {
     font-family: 'Arima Madurai', cursive;
@@ -83,7 +83,7 @@
     height: 100vh;
    position:absolute;
    right: 0px;
-   z-index: 2;
+   /* z-index: 2; */
    vertical-align: middle;
    
 }
@@ -109,7 +109,7 @@
 }
 
 
-@media (max-width:1068px) {
+@media (max-width:768px) {
     .navItems {
         display: none;
     }
@@ -123,5 +123,10 @@
 @media (min-width:1069px){
     .dropdownParent{
         display: none;
+    }
+}
+@media(max-width:700px){
+    .dropdown{
+        width: 100%;
     }
 }

@@ -9,3 +9,11 @@
 .ingredientTable{
     border-spacing: 1em;
 }
+@media(max-width:320px){
+    .ingredientTable{
+        font-size: 12px;
+    }
+    .methodOl{
+        font-size: 12px;
+    }
+}

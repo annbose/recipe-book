@@ -22,27 +22,21 @@ function Method(props) {
     const ingredients = categories[params.id].ingredients;
     const measurements = categories[params.id].measurements;
     const steps = categories[params.id].steps;
+    const time=categories[params.id].cookingTime;
 
     return <div className="Parent">
-        <div>
-            <h1>{name}</h1>
-            {/* <h2>Ingredients</h2> */}
-            {/* <ol> */}
-                {/* {
-                    ingredients.map((ing1, index) => {
-                        return <li key={index}>{ing1}</li>
-                    }) */}
-                        <table className="ingredientTable">
-                            <thead>
+               <div>
+                 <h1>{name}</h1>
+                 <p>Cooks in : {time}</p>
+                     <table className="ingredientTable">
+                        <thead>
                             <tr>
-                                
                                 <th colSpan={2}><h2>Ingredients</h2></th>
                                 <th colSpan={2}><h2>Measurements</h2></th>
                             </tr>
-                            </thead>
-                            <tbody>
-                            {
-                                ingredients.map((ingredient, index)=>{
+                        </thead>
+                         <tbody>
+                             {ingredients.map((ingredient, index)=>{
                                     return <tr key={index}>
                                         <td>
                                             {index+1}.
@@ -51,28 +45,22 @@ function Method(props) {
                                             {ingredient}
                                         </td>
                                         <td>
-
                                         </td>
                                         <td>
                                             {measurements[index]}
                                         </td>
                                     </tr>
-                                })
-                            }
+                                    })
+                                 }
                             </tbody>
                         </table>
-                   
-                
            
             <h2>Method</h2>
-
-            <ol>
-                {
-                    steps.map((step1, index) => {
+            <ol className="methodOl">
+                {steps.map((step1, index) => {
                         return <li key={index}>{step1}</li>
                     })
                 }
-
             </ol>
         </div>
     </div>

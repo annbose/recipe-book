@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./navbar.css";
 import Search from "./components/search";
-
+import { Link } from "react-router-dom";
 
 function Navbar() {
 
@@ -18,7 +18,6 @@ function Navbar() {
     function handleEmptySpaceClick(event){
         if (event.target.id==="ddParent" || event.target.id==="bars"){
             setdropDown(function (prevValue) { return !prevValue })
-
         }
     }
 
@@ -30,10 +29,10 @@ function Navbar() {
             <li> 
                 <Search />
             </li>
-            <li><a href="#Curries">CURRIES</a></li>
-            <li><a href="#Snacks">SNACKS</a></li>
-            <li><a href="#Desserts">DESSERTS</a></li>
-            <li><a href="#Main Course">MAIN COURSE</a></li>
+            <li><Link to="#Curries">CURRIES</Link></li>
+            <li><Link to="#Snacks">SNACKS</Link></li>
+            <li><Link to="#Desserts">DESSERTS</Link></li>
+            <li><Link to="#Main Course">MAIN COURSE</Link></li>
         </ul>
 
         <i onClick={handleBarsClick} id="bars" className="fas fa-bars"></i>
@@ -43,12 +42,12 @@ function Navbar() {
             <div id="ddChild" className="dropdown" >
                 <ul>
                     <li className="search">
-                        <Search />
+                        <Search onClicked={()=>{setdropDown(false)}}/>
                     </li>
-                    <li><a href="#Curries">CURRIES</a></li>
-                    <li><a href="#Snacks">SNACKS</a></li>
-                    <li><a href="#Desserts">DESSERTS</a></li>
-                    <li><a href="#Main Course">MAIN COURSE</a></li>
+                    <li><Link to="#Curries">CURRIES</Link></li>
+                    <li><Link to="#Snacks">SNACKS</Link></li>
+                    <li><Link to="#Desserts">DESSERTS</Link></li>
+                    <li><Link to="#Main Course">MAIN COURSE</Link></li>
                 </ul>
 
             </div>
