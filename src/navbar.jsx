@@ -29,10 +29,10 @@ function Navbar() {
             <li> 
                 <Search />
             </li>
-            <li><Link to="#Curries">CURRIES</Link></li>
-            <li><Link to="#Snacks">SNACKS</Link></li>
-            <li><Link to="#Desserts">DESSERTS</Link></li>
-            <li><Link to="#Main Course">MAIN COURSE</Link></li>
+            <li><Link to="/#Curries">CURRIES</Link></li>
+            <li><Link to="/#Snacks">SNACKS</Link></li>
+            <li><Link to="/#Desserts">DESSERTS</Link></li>
+            <li><Link to="/#Main Course">MAIN COURSE</Link></li>
         </ul>
 
         <i onClick={handleBarsClick} id="bars" className="fas fa-bars"></i>
@@ -44,10 +44,10 @@ function Navbar() {
                     <li className="search">
                         <Search onClicked={()=>{setdropDown(false)}}/>
                     </li>
-                    <li><Link to="#Curries">CURRIES</Link></li>
-                    <li><Link to="#Snacks">SNACKS</Link></li>
-                    <li><Link to="#Desserts">DESSERTS</Link></li>
-                    <li><Link to="#Main Course">MAIN COURSE</Link></li>
+                    <li><Link to="/#Curries">CURRIES</Link></li>
+                    <li><Link to="/#Snacks">SNACKS</Link></li>
+                    <li><Link to="/#Desserts">DESSERTS</Link></li>
+                    <li><Link to="/#Main Course">MAIN COURSE</Link></li>
                 </ul>
 
             </div>
