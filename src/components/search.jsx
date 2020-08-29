@@ -20,16 +20,16 @@ function Search(props) {
             return
         }
         setSearchDropDown(true);
-        
+
 
         let matched = [];
         const allRecipes = [curries, mainCourse, snacks, desserts];
-        
+
 
         for (let j = 0; j < 4; j++) {
-           
+
             for (let i = 0; i < allRecipes[j].length; i++) {
-                
+
                 if (allRecipes[j][i].recipeName.toLowerCase().startsWith(e)) {
                     // console.log("got ", allRecipes[j][i].recipeName)
                     matched.push(allRecipes[j][i]);
@@ -45,29 +45,29 @@ function Search(props) {
         setSearchDropDown(false)
         console.log("i gt clicked")
     }
-    
+
 
     return <div className="searchParent">
-             <input onChange={handleChange} ></input>
-                 {/* <div className="icon"> */}
-             <i onClick={handleSearchClick} className="fas fa-search"></i>
+        <input onChange={handleChange} ></input>
+            <i onClick={handleSearchClick} className="fas fa-search"></i>
+        
 
 
-              {searchDropDown &&
-                 <div className="searchDropDown">
-                        <ul>
-                        {searchList.map((item, index) => {
-                            return <li className="searchList"
-                                key={index}>
-                                  <Link to={"/method/" + item.category + "/" + item.id} onClick={props.onClicked}  >
-                                     {item.recipeName}
-                                 </Link>
-                          </li>
+        {searchDropDown &&
+            <div className="searchDropDown">
+                <ul>
+                    {searchList.map((item, index) => {
+                        return <li className="searchList"
+                            key={index}>
+                            <Link to={"/method/" + item.category + "/" + item.id} onClick={props.onClicked}  >
+                                {item.recipeName}
+                            </Link>
+                        </li>
 
-                          })}
-                     </ul>
-                 </div>
-          }
+                    })}
+                </ul>
+            </div>
+        }
     </div>
 }
 export default Search;

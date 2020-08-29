@@ -2,28 +2,29 @@
      position: relative; 
  } 
  .searchParent input{
+     /* position: relative; */
     background-color: transparent;
     border: 1px solid black;
     border-radius: 5px;
     width: 170px;
     height: 30px;
+    outline: none;
+    font-family: cursive;
+    letter-spacing: 3px;
+    font-size: 15px;
+    
 }
-.icon{
+.i{
     height: 30px;
     width:40px;
     background-color: teal;
-
-}
-.icon i{
     position: absolute;
+    padding-inline: 50px;
     top:2px;
-    right:0px;
+    right:300px;
 }
-
-
 
 .searchDrop{
-
     width:170px;
     height: 200px;
     background-color: teal;
@@ -33,9 +34,3 @@
     border:1px solid black;
 }
    
-.testing{
-    width:170px;
-    height: 200px;
-    background-color: rgb(236, 142, 18);
-    position:absolute;
-}

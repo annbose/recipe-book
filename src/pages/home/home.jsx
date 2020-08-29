@@ -10,7 +10,7 @@ import desserts from "../../itemsData/dessertsData.json";
 import {useLocation} from "react-router-dom";
 
 function Home() {
-    const{pathname,hash}= useLocation();
+    const{hash}= useLocation();
     if (hash!==""){
         const id = hash.replace('#', '');
         const element = document.getElementById(id);
