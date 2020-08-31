@@ -21,7 +21,7 @@ function Navbar() {
         }
     }
 
-    return <div className="navParent">
+    return <nav className="navParent">
 
         <h1 className="logo">Ann's Recipes</h1>
 
@@ -55,6 +55,6 @@ function Navbar() {
         }
 
 
-    </div>
+    </nav>
 }
 export default Navbar;

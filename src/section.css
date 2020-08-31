@@ -1,9 +1,10 @@
 .sectionParent{
-
+margin-top: 0px;
+padding-top: 0px;
     height: auto;
-    border: solid 1px black;
+    border-top: solid 1px black;
     padding: 20px;
-    background-color:#faf8f7;
+    background-color:#f6fafa;
     background-image: url("https://www.transparenttextures.com/patterns/food.png");
 }
 .sectionParent h2{

@@ -10,7 +10,7 @@
     width: 170px;
     height: 30px;
     outline: none;
-    font-family: cursive;
+    font-family: 'Arima Madurai', cursive;
     letter-spacing: 3px;
     font-size: 15px;
     
@@ -25,13 +25,20 @@
     right:300px;
 } */
 
-.searchDrop{
-    width:170px;
-    height: 200px;
+.searchDropDown{
+    width:172px;
+    /* height: 200px; */
     background-color: teal;
     position: absolute;
+    border-left: black solid 1px;
+    border-right: black solid 1px;
+    border-radius: 5px;
+}
+.searchDropDown ul{
+    padding-left: 0px;
 }
 .searchList{
-    border:1px solid black;
+    border-bottom:1px solid black;
+    padding-left: 10px;
 }
    
