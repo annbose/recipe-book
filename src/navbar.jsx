@@ -23,7 +23,7 @@ function Navbar() {
 
     return <nav className="navParent">
 
-        <h1 className="logo">Ann's Recipes</h1>
+        <Link to ="/"><h1 className="logo">Ann's Recipes</h1></Link>
 
         <ul className="navItems">
             <li> 
