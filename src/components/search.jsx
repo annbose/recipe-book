@@ -11,6 +11,7 @@ function Search(props) {
 
     const [searchDropDown, setSearchDropDown] = useState(false);
     const [searchList, setSearchList] = useState([]);
+    const [noresults,setNoresults]=useState(false);
 
     function handleChange(event) {
         const e = (event.target.value).toLowerCase();
@@ -35,9 +36,11 @@ function Search(props) {
                     matched.push(allRecipes[j][i]);
 
                 }
+                
             }
         }
-        setSearchList(matched)
+        if ([matched]===""){setNoresults(true)}
+        else {setSearchList(matched)}
 
     }
 
@@ -67,6 +70,11 @@ function Search(props) {
                     })}
                 </ul>
             </div>
+        }
+        {noresults && 
+            <div className="noresults">No Results
+            </div>
+
         }
     </div>
 }

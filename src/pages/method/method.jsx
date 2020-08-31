@@ -26,7 +26,7 @@ function Method(props) {
 
     return <div className="Parent">
                <div>
-                 <h1>{name}</h1>
+                 <h1 className="name">{name}</h1>
                  <p>Cooks in : {time}</p>
                      <table className="ingredientTable">
                         <thead>

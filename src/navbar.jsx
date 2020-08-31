@@ -44,10 +44,10 @@ function Navbar() {
                     <li className="search">
                         <Search onClicked={()=>{setdropDown(false)}}/>
                     </li>
-                    <li><Link onClick ={()=>{setdropDown(false)}} to="/#Curries">CURRIES</Link></li>
-                    <li><Link onClick ={()=>{setdropDown(false)}} to="/#Snacks">SNACKS</Link></li>
-                    <li><Link onClick ={()=>{setdropDown(false)}} to="/#Desserts">DESSERTS</Link></li>
-                    <li><Link onClick ={()=>{setdropDown(false)}}to="/#Main Course">MAIN COURSE</Link></li>
+                    <li className="navlink"><Link onClick ={()=>{setdropDown(false)}} to="/#Curries">CURRIES</Link></li>
+                    <li className="navlink"><Link onClick ={()=>{setdropDown(false)}} to="/#Snacks">SNACKS</Link></li>
+                    <li className="navlink"><Link onClick ={()=>{setdropDown(false)}} to="/#Desserts">DESSERTS</Link></li>
+                    <li className="navlink"><Link onClick ={()=>{setdropDown(false)}}to="/#Main Course">MAIN COURSE</Link></li>
                 </ul>
 
             </div>

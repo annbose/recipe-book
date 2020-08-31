@@ -41,4 +41,13 @@
     border-bottom:1px solid black;
     padding-left: 10px;
 }
+.noresults{
+    width:172px;
+    height: 50px;
+    background-color: rgb(173, 24, 24);
+    position: absolute;
+    border-left: black solid 1px;
+    border-right: black solid 1px;
+    border-radius: 5px;
+}
    

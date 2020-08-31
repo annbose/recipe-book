@@ -5,6 +5,13 @@
     background-image: url("https://www.transparenttextures.com/patterns/food.png");
 
     font-family: 'Arima Madurai', cursive;
+    padding-top: 0px;
+    padding-left: 20px;
+    margin-top: 0px;
+}
+.name{
+    padding-top: 20px;
+    margin-top: 0px;
 }
 .ingredientTable{
     border-spacing: 1em;

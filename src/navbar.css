@@ -7,6 +7,7 @@
     position: relative;
     color: black;
     background-color: cadetblue;
+   
 
 }
 .logo{
@@ -55,9 +56,12 @@
    vertical-align: middle;
 }
 
-.dropdown li{
-    padding: 25px;
-    
+.search{
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+.navlink{
+    padding:25px;
 }
 
 
