@@ -1,7 +1,7 @@
 [
     {
         "id": 0,
-        "imgSource": "./images/main-course.jpg",
+        "imgSource": "./images/biriyani.jpg",
         "recipeName": "Biriyani",
         "category":"main",
         "cookingTime": "120 min",
@@ -14,7 +14,7 @@
     },
     {
         "id": 1,
-        "imgSource": "./images/main-course.jpg",
+        "imgSource": "./images/pasta.jpg",
         "recipeName": "Pasta",
         "category":"main",
         "cookingTime": "45 min",

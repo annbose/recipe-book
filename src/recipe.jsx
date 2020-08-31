@@ -13,7 +13,6 @@ function RecipeTile(props) {
         height: "200px",
     }
 
-    
 
     // return <Link to={`/method/ ${props.category} / ${props.id} `} >
     return <Link to={"/method/" + props.category + "/" + props.id} >

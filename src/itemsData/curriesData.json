@@ -31,7 +31,7 @@
     },
     {
         "id": 2,
-        "imgSource": "./images/curries.jpg",
+        "imgSource": "./images/ButterChicken.jpg",
         "recipeName": "Butter Chicken",
         "category":"curries",
         "cookingTime": "50 min", 
@@ -46,7 +46,7 @@
     },
     {
         "id": 3,
-        "imgSource": "./images/curries.jpg",
+        "imgSource": "./images/rasam.jpg",
         "recipeName": "Rasam",
         "category":"curries",
         "cookingTime": "10 min",

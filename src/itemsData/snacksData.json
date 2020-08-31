@@ -1,7 +1,7 @@
 [
     {
         "id": 0,
-        "imgSource": "./images/snacks.jpg",
+        "imgSource": "./images/chickenPuff.jpg",
         "recipeName": "Chicken Puffs",
         "category":"snack",
         "cookingTime": "45 min",
@@ -15,7 +15,7 @@
     },
     {
         "id": 1,
-        "imgSource": "./images/snacks.jpg",
+        "imgSource": "./images/pancakes.jpeg",
         "recipeName": "Pan Cakes",
         "category":"snack",
         "cookingTime": "30 min",
@@ -27,7 +27,7 @@
     },
     {
         "id": 2,
-        "imgSource": "./images/snacks.jpg",
+        "imgSource": "./images/Ada.jpg",
         "recipeName": "Ada",
         "category":"snack",
         "cookingTime": "50 min",

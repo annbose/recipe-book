@@ -15,7 +15,7 @@
     },
     {
         "id": 1,
-        "imgSource": "./images/desserts.jpg",
+        "imgSource": "./images/applePie.jpg",
         "recipeName": "Apple Pie",
         "category":"dessert",
         "cookingTime": "30 min",
@@ -29,7 +29,7 @@
     },
     {
         "id": 2,
-        "imgSource": "./images/desserts.jpg",
+        "imgSource": "./images/crumble.jpg",
         "recipeName": "Crumble",
         "category":"dessert",
         "cookingTime": "20 min",
@@ -42,7 +42,7 @@
     },
     {
         "id": 3,
-        "imgSource": "./images/desserts.jpg",
+        "imgSource": "./images/popsicle.jpg",
         "recipeName": "Popsicles",
         "category":"dessert",
         "cookingTime": "10 min",
