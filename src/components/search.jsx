@@ -11,7 +11,7 @@ function Search(props) {
 
     const [searchDropDown, setSearchDropDown] = useState(false);
     const [searchList, setSearchList] = useState([]);
-    const [noresults,setNoresults]=useState(false);
+    // const [noresults,setNoresults]=useState(false);
 
     function handleChange(event) {
         const e = (event.target.value).toLowerCase();
@@ -39,22 +39,22 @@ function Search(props) {
                 
             }
         }
-        if ([matched]===""){setNoresults(true)}
-        else {setSearchList(matched)}
-
+        setSearchList(matched)
+        // if ( matched.length === 0 ){setNoresults(true)}
+        // else {setSearchList(matched)}
     }
 
-    // function handleSearchClick() {
-    //     setSearchDropDown(false)
-    //     console.log("i gt clicked")
-    // }
-
+    function handleSearchListDDClick() {
+        setSearchDropDown(false)
+        props.onClick()
+        // if (props.onClicked){
+        //     props.onClicked()
+        // }this can be used where props is needed  only at particular cases(in a same component).
+    }
 
     return <div className="searchParent">
         <input placeholder="Type to Search.." onChange={handleChange} ></input>
             {/* <i onClick={handleSearchClick} className="fas fa-search"></i> */}
-        
-
 
         {searchDropDown &&
             <div className="searchDropDown">
@@ -62,7 +62,7 @@ function Search(props) {
                     {searchList.map((item, index) => {
                         return <li className="searchList"
                             key={index}>
-                            <Link to={"/method/" + item.category + "/" + item.id} onClick={props.onClicked}  >
+                            <Link to={"/method/" + item.category + "/" + item.id} onClick={handleSearchListDDClick}  >
                                 {item.recipeName}
                             </Link>
                         </li>
@@ -71,11 +71,11 @@ function Search(props) {
                 </ul>
             </div>
         }
-        {noresults && 
+        {/* {noresults && 
             <div className="noresults">No Results
             </div>
 
-        }
+        } */}
     </div>
 }
 export default Search;
