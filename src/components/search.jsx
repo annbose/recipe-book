@@ -11,13 +11,14 @@ function Search(props) {
 
     const [searchDropDown, setSearchDropDown] = useState(false);
     const [searchList, setSearchList] = useState([]);
-    // const [noresults,setNoresults]=useState(false);
+    const [noresults,setNoresults]=useState(false);
 
     function handleChange(event) {
         const e = (event.target.value).toLowerCase();
 
         if (e === "") {
             setSearchDropDown(false);
+            setNoresults(false)
             return
         }
         setSearchDropDown(true);
@@ -39,9 +40,14 @@ function Search(props) {
                 
             }
         }
-        setSearchList(matched)
-        // if ( matched.length === 0 ){setNoresults(true)}
-        // else {setSearchList(matched)}
+        // setSearchList(matched)
+        if ( matched.length === 0 ){
+            setNoresults(true)
+             setSearchDropDown(false)
+            }
+        
+        else {setSearchList(matched)
+        }
     }
 
     function handleSearchListDDClick() {
@@ -71,11 +77,11 @@ function Search(props) {
                 </ul>
             </div>
         }
-        {/* {noresults && 
+        {noresults && 
             <div className="noresults">No Results
             </div>
 
-        } */}
+        }
     </div>
 }
 export default Search;
