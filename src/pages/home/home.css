@@ -2,7 +2,7 @@
 
 .bg {
     background-image:
-     linear-gradient(rgba(255,255,255,0.4),rgba(255,255,255,0.4)),
+     linear-gradient(rgba(255,255,255,0.3),rgba(255,255,255,0.4)),
                     url("/images/background.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -18,9 +18,19 @@
   .bg h1{
     font-family: 'Arima Madurai', cursive;
     /* color: rgb(2, 95, 6); */
-    color: cadetblue;
+    color: black;
     font-size: 600%;
     text-align: center;
     letter-spacing: 5px;
+    margin: 0px;
     
+  }
+  .bg h3{
+    font-family: 'Meddon', cursive;
+    color: black;
+    font-size: 200%;
+    text-align: center;
+    margin:0px;
+    padding-top: 0px;
+    padding-left: 200px;
   }

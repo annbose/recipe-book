@@ -5,12 +5,11 @@
         "recipeName": "Chicken Puffs",
         "category":"snack",
         "cookingTime": "45 min",
-        "ingredients":["Chicken","PuffPastry","Onions","Tomatoes","Green Chillies","Ginger Garlic paste","Oil"],
-        "measurements":["1","1/2","1/2","3 to 4","1/2 tbspn","2" ],
-        "steps":["In a cooker mix beef,salt,vinegar and black pepper",
-            "on a medium flame wait for two or thr",
-            "In a pan add oil and onions and suate them till they are golden "]
-
+        "ingredients":["Chicken diced","PuffPastry ","Onions","Tomatoes","Green Chillies","Ginger Garlic paste","Oil"],
+        "measurements":["1 cup","2 sheets","1","1/2","1","2 tspn","2 tbspn" ],
+        "steps":["In a pan add oil and fry the diced chicken","In the same pan saute onions ,add ginger garlic paste saute for another 2 minutes.",
+            "Add turmeric powder and chilly powder","Add in diced tomatoes and garam masala"]
+            
        
     },
     {
@@ -19,10 +18,9 @@
         "recipeName": "Pan Cakes",
         "category":"snack",
         "cookingTime": "30 min",
-        "ingredients":["Any flour","Sugar","Butter"],
-        "measurements":["1","1/2","1/2"],
-        "steps":["In a cooker mix beef,salt,vinegar and black pepper,on a medium flame wait for two or three whistles (or until beef is 90% done)","In a pan add oil and onions and suate them till they are golden "]
-
+        "ingredients":["Any flour","Sugar","Butter","Vanilla Extract","Milk","Salt"],
+        "measurements":["1 cup","1/2 tbspn","To grease","1/2 tspn","1/2 cup","a pinch"],
+        "steps":["In a bowl mix flour,salt,sugar milk, beaten egg and vanilla. ","Grease the pan with butter and use a laddle to pour pan cakes","Flip when bubbles appear.","Serve with honey or syrup."]
         
     },
     {
@@ -31,10 +29,9 @@
         "recipeName": "Ada",
         "category":"snack",
         "cookingTime": "50 min",
-        "ingredients":["Wheat flour","Sugar","Tomatoes","Oil"],
-        "measurements":["1","1/2","1/2","2"],
-        "steps":["In a cooker mix beef,salt,vinegar and black pepper,on a medium flame wait for two or three whistles (or until beef is 90% done)","In a pan add oil and onions and suate them till they are golden "]
-
+        "ingredients":["Wheat flour","Sugar or Jaggery","Shredded Coconut","Salt","Ripe Banana","Baking Paper"],
+        "measurements":["1 cup","2 tbspn","1/2 cup","a pinch","1 ","Cut to rectangles"],
+        "steps":["In a bowl mix flour and salt"," Add enough water to make a dough and add smashed banana. ","On a baking paper spread 2 tbspns of dough with wet hand.","Sprinkle on some sugar or jaggery and shredded coconut","Fold the paper and seal the edges","Steam for 10 minutes"]
        
     },
     {
@@ -43,10 +40,10 @@
         "recipeName": "Samosa",
         "category":"snack",
         "cookingTime": "10 min",
-        "ingredients":["Onions","Tomatoes","Green Chillies","Ginger Garlic paste","Oil"],
-        "measurements":["1","1/2","1/2","3 to 4","1/2 tbspn" ],
-        "steps":["In a cooker mix beef,salt,vinegar and black pepper,on a medium flame wait for two or three whistles (or until beef is 90% done)","In a pan add oil and onions and suate them till they are golden "]
-
+        "ingredients":["Onions","Tomatoes","Green Chillies","Vegetebles","Ginger Garlic paste","Oil"],
+        "measurements":["1","1","2","1 cup","1/2 tbspn" ],
+        "steps":["Cook the diced vegetables in a pressure cooker or steamer","In a pan add oil and onions and suate them till they are golden.","Add ginger garlic paste saute for another 2 minutes.","Add turmeric powder,coriander powder and chilly powder","Add in diced tomatoes and garam masala","Add cooked vegetables and salt to taste .","Mix well and let it cool","Cut and fold samosa sheets and fill with vegetable masala","Deep fry in oil or bake for 20 minutes in oven."]
+    
         
     }
 ]

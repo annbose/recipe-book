@@ -23,7 +23,10 @@ function Home() {
     return <div className="home">
 
         <div className="bg">
+            <div>
             <h1 >Cook with love</h1>
+            <h3>and a pinch of laziness</h3>
+            </div>
         </div>
 
         <Section category="curries"

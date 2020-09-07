@@ -6,10 +6,10 @@
         "category":"main",
         "cookingTime": "120 min",
         "ingredients":["Basmati Rice","Chicken","Yoghurt","Ginger Garlic paste","red chilly powder","Garam masala"],
-        "measurements":["1","1/2","1/2","3 to 4","1/2 tbspn" ,"2"],
+        "measurements":["2 cups","1/2 to 3/4 kg","1 tbspn ","3 tbspn","1/2 tbspn" ,"2"],
         "steps":["in a large bowl add three quarters of water and add whole spices",
-            "let it com e to near boil ,add salt and rice",
-        ""]
+                 "Marinate chicken pieces with salt ,yoghurt,turmeric powder,chilly powder and an egg. ",
+                 "let it come to near boil ,add salt and rice"]
         
     },
     {
@@ -20,7 +20,13 @@
         "cookingTime": "45 min",
         "ingredients":["Pasta","Tomatoes","Red chilly flakes","salt"],
         "measurements":["1","1/2","3 to 4","1/2 tbspn" ],
-        "steps":["Bring water to boil in a large pan"]
+        "steps":["Bring water to boil in a large pan",
+            "Add pasta and cook according to instruction on label.",
+            "In a wok add little oil and add chilly flakes followed by garlic and chicken ",
+            "Add some chopped onions and ginger garlic paste.",
+            "Blend tomatoes in a blender to a smooth paste and add it to the wok.",
+            "Add soy sauce and a little cooked pasta water, cook for 3 minutes"
+        ]
        
     },
     {
@@ -29,9 +35,12 @@
         "recipeName": "Fried Rice",
         "category":"main",
         "cookingTime": "20 min",
-        "ingredients":["Cooked basmati rice","finely chopped veggies","garlic"],
-        "measurements":["1","1/2","1/2" ],
-        "steps":["in a wok add any veg oil bring to a very high temperature.","Add Garlic followed by veggies and suate well"]
+        "ingredients":["Cooked basmati rice","finely chopped veggies","garlic","Soy sauce","Vegetable oil"],
+        "measurements":["2 cups","1/2 cup","5 to 7 cloves","1 tbspn","1 tbspn" ],
+        "steps":["in a wok add any veg oil bring to a very high temperature.",
+            "Add Garlic followed by veggies and saute well.",
+        "Add soy sauce and mix well add a pinch ogf sugar",
+    "Add rice and peppr powder and splash of sesame oil"]
        
     }
    
