@@ -5,10 +5,11 @@
         "recipeName": "Biriyani",
         "category":"main",
         "cookingTime": "120 min",
-        "ingredients":["Basmati Rice","Chicken","Yoghurt","Ginger Garlic paste","red chilly powder","Garam masala"],
-        "measurements":["2 cups","1/2 to 3/4 kg","1 tbspn ","3 tbspn","1/2 tbspn" ,"2"],
-        "steps":["in a large bowl add three quarters of water and add whole spices",
-                 "Marinate chicken pieces with salt ,yoghurt,turmeric powder,chilly powder and an egg. ",
+        "ingredients":["Basmati Rice","Chicken","Yoghurt","Ginger Garlic paste","Garam masala","turmeric powder"],
+        "measurements":["2 cups","1/2 to 3/4 kg","1 tbspn ","3 tbspn","1/2 tbspn" ,"1/2 tspn"],
+        "steps":["wash and soak rice for 20 minutes",
+            "In a large bowl add 4 and a half cups of water and add whole spices. Bring this to boil.",
+                 "Marinate chicken pieces with salt ,yoghurt,turmeric powder. ",
                  "let it come to near boil ,add salt and rice"]
         
     },
