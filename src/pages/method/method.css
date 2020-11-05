@@ -16,6 +16,9 @@
 .ingredientTable{
     border-spacing: 1em;
 }
+.methodOl{
+    margin-right: 16px;
+}
 @media(max-width:320px){
     .ingredientTable{
         font-size: 12px;

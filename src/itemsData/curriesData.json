@@ -7,11 +7,11 @@
         "cookingTime": "45 min",
         "ingredients":["Beef","Onions","Tomatoes","Green Chillies","Ginger Garlic paste","Coconut Oil"],
         "measurements":["1 kg","2 medium sized","2 medium","3 to 4","2 tbspn" ,"3 tbspn"],
-        "steps":["In a pressure cooker mix beef,salt,vinegar and black pepper,on a medium flame cook for two or three whistles (or until beef is 90% done)",
-            "In a pan add oil and onions and suate them till they are golden brown colour.",
-            "Add ginger-garlic paste and saute for another two minutes.",
+        "steps":["In a pressure cooker, mix together beef,salt,vinegar and black pepper.On a medium flame cook for two or three whistles. (or until beef is 90% done)",
+            "In a pan, add oil and onions and saute them until they are golden brown colour.",
+            "Add ginger-garlic paste and green chillies. Saute for another two minutes.",
             "Add turmeric powder, coriander powder and red chilly powder. Saute until raw smell goes.",
-            "Add tomatoes diced and cook with a little water",
+            "Add tomatoes diced and little water.Cook the tomatoes.",
             "Add the cooked beef and mix well. On a low flame cook for 15 minutes. " ]
 
         
@@ -22,9 +22,9 @@
         "recipeName": "Eggplant",
         "category":"curries",
         "cookingTime": "30 min", 
-        "ingredients":["egg plant","Onions","Tomatoes","Green Chillies","Ginger Garlic paste","Oil"],
+        "ingredients":["Egg plant","Onions","Tomatoes","Green Chillies","Ginger Garlic paste","Oil"],
         "measurements":["1","1/2","1/2","3 ","1 tspn","1 tbspn" ],
-        "steps":["In a pan add oil and onions and suate them till they are golden brown in colour.",
+        "steps":["In a pan add oil and onions and saute them till they are golden brown in colour.",
                  "Add ginger garlic paste and saute well.",
                  "Add turmeric powder, coriander powder and red chilly powder. Saute until raw smell goes.",
                 "Add the cut and cleanead eggplant pieces, stirr well and coat the eggplant with the masala.",
@@ -63,7 +63,7 @@
             "Add rasam powder, garlic crushed. ",
             "On a medium flame bring to boil.",
             "Add a pinch of jaggery or sugar cook or 5 minutes.",
-            "Splutter some mustard seeds. dry chilles ,curry leaves and a pinch of hing powder. Add this to rasam. "
+            "For tempering, splutter some mustard seeds, dry chilles ,curry leaves and a pinch of hing powder. Add this to rasam. "
             ]
 
         

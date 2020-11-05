@@ -39,7 +39,8 @@ function Navbar() {
             <li><Link to="/#Main Course">MAIN COURSE</Link></li>
         </ul>
 
-        <i onClick={handleBarsClick} id="bars" className="fas fa-bars"></i>
+
+        <i onClick={handleBarsClick} id="bars" className="fas fa-bars bar"></i>
 
         {dropDown &&
             <div id="ddParent" className="dropdownParent" onClick={handleEmptySpaceClick}>
