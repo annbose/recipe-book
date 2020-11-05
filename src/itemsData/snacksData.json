@@ -5,12 +5,18 @@
         "recipeName": "Chicken Puffs",
         "category":"snack",
         "cookingTime": "45 min",
-        "ingredients":["Chicken diced","PuffPastry ","Onions","Tomatoes","Green Chillies","Ginger Garlic paste","Oil"],
-        "measurements":["1 cup","2 sheets","1","1/2","1","2 tspn","2 tbspn" ],
-        "steps":["In a pan add oil and fry the diced chicken","In the same pan saute onions ,add ginger garlic paste saute for another 2 minutes.",
-            "Add turmeric powder and chilly powder","Add in diced tomatoes and garam masala"]
-            
-       
+        "ingredients":["Chicken diced","PuffPastry ","Onions","Tomatoes","Green Chillies","Ginger Garlic paste","Oil","Red chilly powder","Turmeric powder","Carrot","frozen green peas","Garam masala","Pepper powder"],
+        "measurements":["1 cup","2 sheets","1","1/2","1","2 tspn","2 tbspn","2 tspn","1/2 tspn","1 grated","1 handful","1 tspn","1 tspn" ],
+        "steps":["Marinate chicken with salt,one teaspoon red chilly powder and half teaspoon of ginger garlic paste. Keep it aside for atleast 15 minutes",
+            "In a pan add oil and fry the diced chicken and keep it aside",
+            "In the same pan saute onions ,add ginger garlic paste saute for another 2 minutes.",
+            "You can add one or two green chillies chopped at this stage if you want a spicy puff ",
+            "Add turmeric powder and red chilly powder","Add in diced tomatoes,grated carrot and peas. Sprinkle some garam masala powder and pepper",
+            "Add fried chicken and mix well. Add little water and close the lid and cook for 2 minutes.",
+            "If you want to take your puffs to next level add in some cheese of your choice while the mixture is still hot.",
+            "Pre-heat the oven to 180 deg c",
+            "Cut pastry sheets to rectangles, place the mixture in centre and fold it in half. (you can roll the sheets into cylinders too.. chicken rolls voila!) Seal the edges (try not to stretch the sheets while doing this)",
+             "bake those beauties for about 25 minutes "]
     },
     {
         "id": 1,
@@ -20,7 +26,10 @@
         "cookingTime": "30 min",
         "ingredients":["Any flour","Sugar","Butter","Vanilla Extract","Milk","Salt"],
         "measurements":["1 cup","1/2 tbspn","To grease","1/2 tspn","1/2 cup","a pinch"],
-        "steps":["In a bowl mix flour,salt,sugar milk, beaten egg and vanilla. ","Grease the pan with butter and use a laddle to pour pan cakes","Flip when bubbles appear.","Serve with honey or syrup."]
+        "steps":["In a bowl mix flour,salt,sugar milk, beaten egg and vanilla. (You can completely skip the egg if you like to. Add 1/4 tspn of baking soda instead.)",
+            "Grease the pan with butter and use a laddle to pour pan cakes",
+            "Flip when bubbles appear.",
+            "Serve with honey or syrup."]
         
     },
     {
@@ -31,7 +40,13 @@
         "cookingTime": "50 min",
         "ingredients":["Wheat flour","Sugar or Jaggery","Shredded Coconut","Salt","Ripe Banana","Baking Paper"],
         "measurements":["1 cup","2 tbspn","1/2 cup","a pinch","1 ","Cut to rectangles"],
-        "steps":["In a bowl mix flour and salt"," Add enough water to make a dough and add smashed banana. ","On a baking paper spread 2 tbspns of dough with wet hand.","Sprinkle on some sugar or jaggery and shredded coconut","Fold the paper and seal the edges","Steam for 10 minutes"]
+        "steps":["In a bowl mix flour and salt.",
+            " Add enough water to make a dough(not too thich like chapathi dough nor too thin like pancake batter) and add smashed banana. ",
+            "Cut baking paper into rectangles about 3 or 4 inches wide.",
+            "Spread 2 tbspns of dough with wet hand on baking paper. Try to spread it evenly. ",
+            "Sprinkle on some sugar or jaggery and shredded coconut.",
+            "Fold the paper and seal the edges.",
+            "Steam for 10 minutes."]
        
     },
     {
@@ -41,8 +56,16 @@
         "category":"snack",
         "cookingTime": "10 min",
         "ingredients":["Onions","Tomatoes","Green Chillies","Vegetebles","Ginger Garlic paste","Oil"],
-        "measurements":["1","1","2","1 cup","1/2 tbspn" ],
-        "steps":["Cook the diced vegetables in a pressure cooker or steamer","In a pan add oil and onions and suate them till they are golden.","Add ginger garlic paste saute for another 2 minutes.","Add turmeric powder,coriander powder and chilly powder","Add in diced tomatoes and garam masala","Add cooked vegetables and salt to taste .","Mix well and let it cool","Cut and fold samosa sheets and fill with vegetable masala","Deep fry in oil or bake for 20 minutes in oven."]
+        "measurements":["1","1","2","1 cup diced","1/2 tbspn","1tbspn" ],
+        "steps":["Cook the diced vegetables in a pressure cooker or steamer",
+            "In a pan add oil and onions and suate them till they are golden.",
+            "Add ginger garlic paste saute for another 2 minutes.",
+            "Add turmeric powder,coriander powder and chilly powder",
+            "Add in diced tomatoes and garam masala",
+            "Add cooked vegetables and salt to taste .",
+            "Mix well and let it cool",
+            "Cut and fold samosa sheets and fill with vegetable masala",
+            "Deep fry in oil or bake for 20 minutes in oven."]
     
         
     }

@@ -6,10 +6,13 @@
         "category":"curries",
         "cookingTime": "45 min",
         "ingredients":["Beef","Onions","Tomatoes","Green Chillies","Ginger Garlic paste","Coconut Oil"],
-        "measurements":["1 kg","2 medium sized","1","3 to 4","2 tbspn" ,"3 tbspn"],
+        "measurements":["1 kg","2 medium sized","2 medium","3 to 4","2 tbspn" ,"3 tbspn"],
         "steps":["In a pressure cooker mix beef,salt,vinegar and black pepper,on a medium flame cook for two or three whistles (or until beef is 90% done)",
             "In a pan add oil and onions and suate them till they are golden brown colour.",
-        "Add gingerGarlic paste and suate for another two minutes."]
+            "Add ginger-garlic paste and saute for another two minutes.",
+            "Add turmeric powder, coriander powder and red chilly powder. Saute until raw smell goes.",
+            "Add tomatoes diced and cook with a little water",
+            "Add the cooked beef and mix well. On a low flame cook for 15 minutes. " ]
 
         
     },
@@ -23,9 +26,10 @@
         "measurements":["1","1/2","1/2","3 ","1 tspn","1 tbspn" ],
         "steps":["In a pan add oil and onions and suate them till they are golden brown in colour.",
                  "Add ginger garlic paste and saute well.",
-                "Add the cut and cleanead eggplant piesces, stirr well and coat the eggplant with the masala.",
-                 "Add salt to taste and cover with alid until eggplant is cooked.",
-                     "Add hot water to make more gravy."]
+                 "Add turmeric powder, coriander powder and red chilly powder. Saute until raw smell goes.",
+                "Add the cut and cleanead eggplant pieces, stirr well and coat the eggplant with the masala.",
+                 "Add salt to taste and cover with a lid until eggplant is cooked.",
+                "Add hot water to adjust the thickness of gravy."]
 
         
     },
@@ -35,13 +39,16 @@
         "recipeName": "Butter Chicken",
         "category":"curries",
         "cookingTime": "50 min", 
-        "ingredients":["Chicken","Onions","Tomatoes","Ginger Garlic paste","Oil","Garlic paste","Red Chilly Powder","Garam Masala"],
-        "measurements":["1 kg","2","3","1/2 tbspn","1tspn","1 tspn" ],
-        "steps":["Marinate chicken with red chilly powder,salt, and ginger Gralic paste for atleast 20 minutes",
+        "ingredients":["Chicken","Onions","Tomatoes","Ginger-Garlic paste","Oil","Garlic paste","Red Chilly Powder","Garam Masala"],
+        "measurements":["1 kg","2","3","1/2 tbspn","1tspn","1 tspn","1 tspn" ],
+        "steps":["Marinate chicken with red chilly powder,salt, and Ginger-Garlic paste for atleast 20 minutes",
                 "Shallow fry the chicken pieces and keep it aside", 
                 "In the same pan add oil, onions and butter and saute till they are golden ",
-            "Add cashews and "]
-
+                "Add cashews and tomatoes along with water,salt,sugar and chilly powder. Bring to boil.",
+                "Churn it into puree in a blender . Transfer back into pan .",
+                 "Add hot water to adjust the thickness of gravy.", 
+                 "Add the chichen and kasoori methi mix well. Cook for 10 more minutes.",
+                "Add heavy cream and serve hot."]
         
     },
     {
@@ -50,11 +57,14 @@
         "recipeName": "Rasam",
         "category":"curries",
         "cookingTime": "10 min",
-        "ingredients":["Tomatoes","Tamarind Water","Green Chillies","Garlic paste","Oil"],
-        "measurements":["1","1/2","1/2","3 to 4","1/2 tbspn" ],
-        "steps":["In a pan mix tomatoes,salt,tamarind water and black pepper.",
+        "ingredients":["Tomatoes","Tamarind","Garlic","Rasam powder","Oil"],
+        "measurements":["2","Gooseberry sized ball ","3 to 4 cloves","1/2 tbspn","1 tspn" ],
+        "steps":["In a pan add smashed tomatoes,salt,tamarind water and black pepper.",
+            "Add rasam powder, garlic crushed. ",
             "On a medium flame bring to boil.",
-            "Add rasam powder, garlic crushed. "]
+            "Add a pinch of jaggery or sugar cook or 5 minutes.",
+            "Splutter some mustard seeds. dry chilles ,curry leaves and a pinch of hing powder. Add this to rasam. "
+            ]
 
         
     }

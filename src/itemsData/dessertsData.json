@@ -5,12 +5,16 @@
         "recipeName": "Choc Cake",
         "category":"dessert",
         "cookingTime": "45 min",
-        "ingredients":["Plain flour","Eggs","Any veg Oil","sugar","cocoa powder"],
-        "measurements":["1 cup","2","1/2 cup","1/2 to 3/4 cup","1/2 cup" ],
-        "steps":["Beat eggs one by one.",
+        "ingredients":["Plain flour","Eggs","Any veg Oil","sugar","cocoa powder","salt","coffee powder","milk"],
+        "measurements":["1 cup","2","1/2 cup","1/2 to 3/4 cup","1/2 cup" ,"a pinch","1/2 tspn","1/2 cup"],
+        "steps":["Sift flour,cocoa powder,salt and baking powder and keep it aside.",
+            "Pre-heat oven to 190 deg C",
+            "Beat eggs one by one.",
             "Add Sugar and beat well.",
             "Add oil and beat well.",
-            "Add milk angd light coffee."]
+            "Add milk and 1/2 cup coffee and mix well.",
+            "Add in the dry ingredients in three batches blend together with long strokes",
+        "Bake for 30 minutes at 180 deg C."]
         
     },
     {
@@ -19,11 +23,13 @@
         "recipeName": "Apple Pie",
         "category":"dessert",
         "cookingTime": "30 min",
-        "ingredients":["Apples","Sugar","Cinnamon"],
-        "measurements":["1 cup","2","1/2 cup"],
-        "steps":["In a pan add a little water and apples diced",
-            "once apples are softened add sugar and let it cool",
-            "cut pastry sheets and fill it with the apple mix"
+        "ingredients":["Apples","Sugar","Cinnamon powder","Pastry sheets"],
+        "measurements":["1 cup diced","2 tspn","1/2 tspn","2"],
+        "steps":["In a pan add a little water, apples diced and cinnamon powder",
+            "Once apples are softened add sugar cook for another 3 minutes and let it cool",
+            "Pre-heat oven to 190 deg C",
+            "Cut pastry sheets and fill it with the apple mix. Seal the edges.",
+            "Bake for 30 minutes at 190 deg C."
         ]
         
     },
@@ -34,10 +40,11 @@
         "category":"dessert",
         "cookingTime": "20 min",
         "ingredients":["Flour","Butter","sugar","berries"],
-        "measurements":["1 cup","2","1/2 cup","1/2 to 3/4 cup" ],
-        "steps":["Mix flour butter and sugar to make crumble",
+        "measurements":["1 cup","50 g (at room temperature)","1/2 cup","1/2 to 3/4 cup" ],
+        "steps":["Mix flour, butter and sugar to make crumble",
         "In a pan add berries and sugar ,on medium flame caremelise the berries",
         "Into a baking tray transfer the berries and top with the crumble",
+        "Pre-heat oven to 190 deg C",
          "Bake for 20 minutes.Serve hot or cold with icecream."]
     },
     {
@@ -47,9 +54,10 @@
         "category":"dessert",
         "cookingTime": "10 min",
         "ingredients":["Milk","Fresh fruits"],
-        "measurements":["1 cup","2" ],
+        "measurements":["1 cup","1/4 cup" ],
         "steps":["Mix all the ingredients in a blender",
-        "Pour the mixture into popsicle moulds and freeze for 4 hours"]
+        "Pour the mixture into popsicle moulds and freeze for 4 hours",
+        "You ca also use whipping cream for extra richness"]
        
     }
 ]
