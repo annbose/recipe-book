@@ -25,7 +25,8 @@
     bottom:89vh; */
     font-family: 'Arima Madurai', cursive;
     font-size: 15px;
-    font-weight: 700;  
+    font-weight: 700; 
+    padding-top: 10px; 
 }
 .navParent li {
     list-style: none;
