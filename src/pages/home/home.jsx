@@ -25,7 +25,7 @@ function Home() {
         <div className="bg">
             <div>
             <h1 >Cook with love</h1>
-            <h3>and a pinch of laziness</h3>
+            <h3>     </h3>
             </div>
         </div>
 
